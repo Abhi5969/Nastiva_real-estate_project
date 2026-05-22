@@ -315,6 +315,9 @@ p {
     color: #000000;
 }
 
+.search-item select option{
+    background-color: #5beeda;
+}
 .search-botton {
     padding-right: 30px;
 }
@@ -897,11 +900,18 @@ p {
 .brand-row {
     padding: 30px;
 }
-
+.barnd-box{
+    overflow: hidden;
+    border-radius: 30px;
+}
 .brand-row .barnd-box img {
     object-fit: cover;
+    transition: 1s;
 }
 
+.brand-row .barnd-box img:hover{
+    transform: scale(1.1);
+}
 /* ------------------footer---------------------- */
 
 .footer-row {
