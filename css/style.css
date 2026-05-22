@@ -495,7 +495,8 @@ p {
 }
 
 .feature-top {
-    height: 93px;
+    max-height: 93px;
+    height: 100%;
 }
 
 .feature-heading h2 {
@@ -513,6 +514,9 @@ p {
     text-align: left;
 }
 
+.feature-top .view-pro-btn:hover{
+    color: #09a792;
+}
 .view-pro-btn {
     color: #154B4C;
     font-size: 16px;
